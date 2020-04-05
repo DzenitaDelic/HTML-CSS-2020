@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="cardcon">
+      <div class="card">
+        <form action="/users/save" method="post">
+          <h1>Register</h1>
+          <br />
+
+          <input
+            type="text"
+            name="firstName"
+            placeholder="Enter first name..."
+            required
+          />
+
+          <input
+            type="text"
+            name="lastName"
+            placeholder="Enter last name..."
+            required
+          />
+
+          <input
+            type="text"
+            name="email"
+            placeholder="Enter email..."
+            required
+          />
+          <input
+            type="text"
+            name="address"
+            placeholder="Enter address..."
+            required
+          />
+          <input
+            type="text"
+            name="phone"
+            placeholder="Enter phone number..."
+            required
+          />
+          <input
+            type="text"
+            name="userType"
+            placeholder="Enter private, bussnies or student..."
+            required
+          />
+
+          <label
+            >I agree to terms and GDPR
+            <input type="checkbox" required />
+            <span class="checkmark"></span>
+          </label>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+
+body {
+  justify-content: center;
+  background-color: #f0f8ff;
+}
+
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Josefin Slab", serif;
+  color: #000080;
+}
+h5 {
+  font-weight: bold;
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+}
+input {
+  font-family: "Josefin Slab", serif;
+  width: 100%;
+  font-size: 30px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  background-color: #f0f8ff;
+  border-bottom: 2px solid #000080;
+}
+input[type="submit"] {
+  font-family: "Josefin Slab", serif;
+  width: 100%;
+  background-color: #000080;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input:hover {
+  font-family: "Josefin Slab", serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #1e90ff;
+}
+
+input[type="submit"]:hover {
+  font-family: "Josefin Slab", serif;
+  width: 100%;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.cardcon {
+  text-align: center;
+  margin-top: 5em;
+}
+.card {
+  width: 50%;
+  display: inline-block;
+}
+
+
+.deletebutton button {
+  color: pink;
+}
+button {
+  font-family: "Josefin Slab", serif;
+  width: 400px;
+  background-color: #000080;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #1e90ff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 15px;
+  left: 55px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.headline h5,
+.headline p {
+  margin: 0px;
+  display: inline-block;
+  padding: 1em;
+  vertical-align: top;
+  font-family: "Josefin Slab", serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000080;
+}
+
+label {
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+}
+
+.mybutton {
+  color: #000080;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+  border: 1px solid;
+  background-color: coral;
+}
+
+
+.container {
+ padding: 120px;
+  background-color: #efefef;
+  width: 600px;
+  border-radius: 6px;
+  margin-top: 7em;
+}
+
+.container table {
+  width: 360px;
+}
+
+.container table tr td {
+  padding: 15px;
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+}
+
+
+.container form button {
+  border: solid 1px #CB2027;
+  background-color: #DD4B39;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+}
+
+.sign a {
+  background-color: #000080;
+  color: white;
+  padding: 50px;
+  font-size: 5vw;
+}
+
+.sign {
+  margin-top: 10em;
+  margin-right: 10em;
+}
